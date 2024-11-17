@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./backend/src", // Ensure this matches your source directory
+    "strict": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["backend/src/*"]
+    }
+  },
+  "include": ["backend/src/**/*.ts"], // Ensures TypeScript only looks in your source folder
+  "exclude": ["node_modules", "dist"]
+}
