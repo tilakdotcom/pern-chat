@@ -5,6 +5,8 @@
     "outDir": "./dist",
     "rootDir": "./backend/src", // Ensure this matches your source directory
     "strict": true,
+    // "allowJs": true,//for importing with .js at the last
+    // "resolveJsonModule": true,//same up
     "esModuleInterop": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
